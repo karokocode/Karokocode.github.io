@@ -18,6 +18,15 @@ body {
     padding: 20px;
     margin-bottom: 20px;
 }
+.logo {
+    position: absolute;
+    top: -20px; /* Ajusta esta posición según sea necesario */
+    left: -20px; /* Ajusta esta posición según sea necesario */
+}
+.logo img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+}
 .author {
     font-size: 0.9em;
     color: #888;
