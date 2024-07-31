@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
 body {
-    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #121212, #1e1e1e);
     color: #e0e0e0;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.quote p {
+    font-family: 'Playfair Display', serif;
 }
 
 .container {
@@ -14,16 +20,16 @@ body {
 }
 
 .quote {
-    background-color: #434242;
+    background-color: #1c1c1c;
     border: 5px solid #333;
     border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;    
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
 .author {
     font-size: 0.9em;
     color: #888;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 15px;
 }
